@@ -1,6 +1,5 @@
 {
     "name" : "led-matrix-display", 
-    "version" : "2.0.0",
     "description" : "driver for led matrices",
     "repository" :
     {
@@ -10,17 +9,20 @@
     "authors" :
     [
       {
-          "name" : "Felix Haschke",
-          "email" : "haschke.felix@gmail.com",
-          "url" : "tek2you.de",
-          "maintainer" : true
+        "name": "Felix Haschke",
+        "email": "haschke.felix@gmail.com",
+        "url": "https://tek2you.de/",
+        "maintainer": true
+    }
+    ],
+    "dependencies": [
+      {
+        "name": "avr-utils",
+        "authors": "Felix Haschke",
+        "frameworks": "arduino"
       }
     ],
-   "dependencies": [
-        {
-          "name": "avr-utils",
-          "authors": "Felix Haschke"
-        }
-      ],
-    "platforms": "*"
+    "version": "2.0.0",
+    "platforms": "*",
+    "frameworks": "arduino"
 }
