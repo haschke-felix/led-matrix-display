@@ -1,6 +1,7 @@
 {
     "name" : "led-matrix-display", 
     "description" : "driver for led matrices",
+    "keywords" : "tek2you, matrix, led, display, avr, arduino, tek2you",
     "repository" :
     {
         "type" : "git",
